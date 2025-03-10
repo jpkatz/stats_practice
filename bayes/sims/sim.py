@@ -35,7 +35,7 @@ def fit_beta_from_mean_std(mean, std, scale_down_term=100):
 
 if __name__ == '__main__':
     # collect prior information, and likelihood?
-    nr_companies = 10
+    nr_companies = 100
     nr_sims = 10_000
     items = 100
     companies = Company.generate_companies(nr_companies)
